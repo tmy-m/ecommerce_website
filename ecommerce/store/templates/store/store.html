@@ -11,7 +11,7 @@
                 <hr>
                 <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to cart</button>
                 <a href="#" class="btn btn-outline-success">View</a>
-                <h4 style="display: block; float: right"><strong>{{product.price|floatformat:2}}</strong></h4>
+                <h4 style="display: block; float: right"><strong>${{product.price|floatformat:2}}</strong></h4>
             </div>
         </div>
         {% endfor %}
